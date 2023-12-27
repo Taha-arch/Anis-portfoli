@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio Website Design | Codehal</title>
+    <link rel="icon" href="images/ANIS REMILA.png">
+
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -14,36 +20,288 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="stylesP.css">
 </head>
 
 <body>
 
-    <!-- header design -->
+    <header class="header">
+        <a href="#"  class="logo">Anis Remila.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+   
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+
 
     <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Anis Remila</h1>
+            <p>I'm a FullStack Web Developer,
+                and this is my Portfolio.
+            </p>
 
-    <!-- about section design -->
+            <div class="social-media">
+                <!-- <a href=""><i class='bx bxl-facebook' ></i></a> -->
+                <a href="https://github.com/AnisRemila" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/anis-remila/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <!-- <a href="#" target="_blank"><i class='bx bxl-instagram-alt' ></i></a> -->
+            </div>
 
-    <!-- services section design -->
+            <a href="assets/CVANISREMILA.pdf" target="_blank" class="btn">Download Resume</a>
+        </div>
 
-    <!-- portfolio section design -->
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+             
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-store-alt'></i>
+                    <h3>Digital Marketer</h3>
+                </div>
+    
 
-    <!-- testimonial design -->
+                <div class="circle"></div>
+            </div>
 
-    <!-- contact section design -->
+            <div class="overlay"></div>
+        </div>
 
-    <!-- footer design -->
+        <div class="home-img">
+            <img src="images/avatar.png" alt="" class="avatar">
+        </div>
+    </section>
+    
+    <!--about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images\Aboutme.jpg" alt="" class="aboutimg">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Hi, I'm Here</h3>
+            <p>Passionate about creating responsive Web Pages, I'm
+                 proud to say that I have acquired a significant amount of 
+                 knowledge and experience with the projects I made 
+                 thanks to the ark-x academy fullstack Mern bootcamp 
+                 program. 
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+      <!-- experience -->
+      <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Build and custom websites that answers to your specified
+                     needs to provide a flawless user experience.<br/>
+                     Using React.js, Node.js, Express.js, MongoDB, Javascript.
+                </p>
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+           
 
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- swiper js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <div class="services-box">
+                <i class='bx bx-store-alt' ></i>
+                <h3>Digital Marketing</h3>
+                <p>Provide high quality service, premium accounts to enjoy
+                     watching movies and listening to music with easy payment
+                      methods and a 100% guarantee all along the subscription.
+                </p>
+                <a href="#" class="btn">Read More</a>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
+            </div>
+        </div>
+      </section>
+
+
+            <!-- portfolio -->
+         <section class="portfolio" id="portfolio">
+            <h2 class="heading">My Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/PrintKingdomLanding.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Filter Gallery</h4>
+                    <p>
+                    </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="images\Capture1.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Filter Gallery</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\Gallery\MainPage.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="images\Capture2.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Youtube Clone</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\CSS GET TO GO\YoutubeClone2.0\YoutubeClone2.0.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\Capture3.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Ark-X Landing Page</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\CSS GET TO GO\Ark-X Landing Page\Ark-X.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\Capture4.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Facebook Login Page</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\CSS GET TO GO\Facebook\facebook Clone.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\Capture5.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Gallery</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\CSS GET TO GO\GridChallenge\Grid.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\Capture6.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Landing Page</h4>
+                    <p>
+                    </p>
+                    <a href="C:\Users\ho\OneDrive\Bureau\starters\CSS GET TO GO\LandingPage\LandingPage.html"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\Capture7.png" alt="" class="projectscreen">
+
+                <div class="portfolio-layer">
+                    <h4>Landing Page</h4>
+                    <p>
+                    </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a> 
+                </div>
+            </div>
+
+            </div>
+         </section>
+        
+               <!-- contact section -->
+
+
+
+         <section class="contact" id="contact">
+
+            <div class="contact-right">
+                <img src="images/avatar.png" alt="" class="contact-img">
+                <div class="contact-our">
+                 <a href="#"  class="logo"><h1>Anis Remila.</h1></a>
+                 <h2>Fell free to contact Me</h2>
+                 <p><i class='bx bx-send' ></i>anis.remila-etu@etu.univh2c.ma</p>
+                 <p><i class='bx bx-phone' ></i>+212 691066107</p>
+                  <div class="social-media">
+                    <!-- <a href="#"><i class='bx bxl-facebook' ></i></a> -->
+                    <!-- <a href="#"><i class='bx bxl-instagram-alt' ></i></a> -->
+                    <a href="https://github.com/AnisRemila"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/anis-remila/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                </div>
+               
+             
+             </div>
+
+            <div class="contact-left">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+        
+              <form action="https://usebasin.com/f/649e6a60b607" method="POST">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+              </form>
+           </div>
+        </section>
+
+     <footer class="footer">
+
+          <div class="footer-text">
+             <p>Copyright &copy; 2023 by Anis | All Rights Reserved.</p>
+          </div>  
+
+          <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+          </div>
+   </footer>
+
+
+
+
+
+
+
+
+      <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!-- swiper js -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+      <!-- custom js -->
+      <script src="script.js"></script>
 </body>
-
-</html>
+  
+</html>  
